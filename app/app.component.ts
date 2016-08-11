@@ -9,7 +9,8 @@ import {SimpleTimer} from 'ng2-simple-timer';
 		<h3>{{title}}</h3>
 		<div><button (click)="subscribeTimer0()">{{timer0button}}  1 sec timer</button>{{counter0}}</div>
 		<div><button (click)="subscribeTimer1()">{{timer1button}}  5 sec timer</button>{{counter1}}</div>
-		<div><button (click)="subscribeTimer2()">{{timer2button}} 10 sec timer</button>{{counter2}}</div>`,
+		<div><button (click)="subscribeTimer2()">{{timer2button}} 10 sec timer</button>{{counter2}}</div>
+		<div><button (click)="delAllTimer()">Delete all timer</button></div>`,
 	// Add SimpleTimer into providers
 	'providers': [SimpleTimer]
 })
@@ -32,9 +33,18 @@ export class AppComponent implements OnInit {
 	constructor(private st: SimpleTimer) { }
 
 	ngOnInit() {
+		this.st.newTimer('1sec',1);
+		this.st.newTimer('5sec',5);
+		this.st.newTimer('10sec',10);
 		this.subscribeTimer0();
 		this.subscribeTimer1();
 		this.subscribeTimer2();
+	}
+
+	delAllTimer() {
+		this.st.delTimer('1sec');
+		this.st.delTimer('5sec');
+		this.st.delTimer('10sec');
 	}
 
 	subscribeTimer0() {
@@ -46,7 +56,7 @@ export class AppComponent implements OnInit {
 			console.log('timer 0 Unsubscribed.');
 		} else {
 			// Subscribe if timer Id is undefined
-			this.timer0Id = this.st.subscribe('1sec', 1, e => this.timer0callback());
+			this.timer0Id = this.st.subscribe('1sec', e => this.timer0callback());
 			this.timer0button = 'Unsubscribe';
 			console.log('timer 0 Subscribed.');
 		}
@@ -62,7 +72,7 @@ export class AppComponent implements OnInit {
 			console.log('timer 1 Unsubscribed.');
 		} else {
 			// Subscribe if timer Id is undefined
-			this.timer1Id = this.st.subscribe('5sec', 5, e => this.timer1callback());
+			this.timer1Id = this.st.subscribe('5sec', e => this.timer1callback());
 			this.timer1button = 'Unsubscribe';
 			console.log('timer 1 Subscribed.');
 		}
@@ -78,7 +88,7 @@ export class AppComponent implements OnInit {
 			console.log('timer 2 Unsubscribed.');
 		} else {
 			// Subscribe if timer Id is undefined
-			this.timer2Id = this.st.subscribe('10sec', 10, e => this.timer2callback());
+			this.timer2Id = this.st.subscribe('10sec', e => this.timer2callback());
 			this.timer2button = 'Unsubscribe';
 			console.log('timer 2 Subscribed.');
 		}
