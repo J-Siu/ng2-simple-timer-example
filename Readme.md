@@ -23,8 +23,12 @@ npm start
 
 ## Changelog
 
-* 0.2.0 - Initial upload
-
+* 0.2.0
+	- Angular2 RC4
+	- ng2-simple-timer 0.2.2
+* 0.2.1
+	- Migrate to NG2 RC5
+	- ng2-simple-timer 0.2.3
 
 ## License
 

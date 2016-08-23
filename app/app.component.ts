@@ -10,9 +10,7 @@ import {SimpleTimer} from 'ng2-simple-timer';
 		<div><button (click)="subscribeTimer0()">{{timer0button}}  1 sec timer</button>{{counter0}}</div>
 		<div><button (click)="subscribeTimer1()">{{timer1button}}  5 sec timer</button>{{counter1}}</div>
 		<div><button (click)="subscribeTimer2()">{{timer2button}} 10 sec timer</button>{{counter2}}</div>
-		<div><button (click)="delAllTimer()">Delete all timer</button></div>`,
-	// Add SimpleTimer into providers
-	'providers': [SimpleTimer]
+		<div><button (click)="delAllTimer()">Delete all timer</button></div>`
 })
 export class AppComponent implements OnInit {
 	title = 'Angular2 Simple Timer Service Example';

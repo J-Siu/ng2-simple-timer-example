@@ -20,6 +20,7 @@
     'common',
     'compiler',
     'core',
+    'http',
     'platform-browser',
     'platform-browser-dynamic'
   ];
