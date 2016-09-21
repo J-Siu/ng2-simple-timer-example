@@ -1,6 +1,6 @@
 # ng2-simple-mq-example
 
-This is example for [ng2-simple-timer](https://github.com/J-Siu/ng2-simple-timer), a simple timer service for Angular 2. 
+This is example for [ng2-simple-timer](https://github.com/J-Siu/ng2-simple-timer), a simple timer service for Angular 2.
 
 ## Index
 
@@ -27,8 +27,10 @@ npm start
 	- Angular2 RC4
 	- ng2-simple-timer 0.2.2
 * 0.2.1
-	- Migrate to NG2 RC5
+	- Migrate to Angular2 RC5
 	- ng2-simple-timer 0.2.3
+* 1.2.4
+	- Migrate to Angular 2.0.0
 
 ## License
 
