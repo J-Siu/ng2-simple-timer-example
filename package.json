@@ -9,11 +9,10 @@
 		"tsc": "tsc",
 		"tsc:w": "tsc -w"
 	},
-	"author": {
-		"name": "John, Sing Dao, Siu",
-		"email": "js@johnsiu.com",
-		"url": "https://johnsiu.com/"
-	},
+  "author": {
+    "name": "John, Sing Dao, Siu",
+    "url": "https://github.com/J-Siu"
+  },
 	"bugs": {
 		"url": "https://github.com/J-Siu/ng2-simple-timer-example/issues"
 	},
