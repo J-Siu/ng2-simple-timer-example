@@ -5,6 +5,7 @@ This is example for [ng2-simple-timer](https://github.com/J-Siu/ng2-simple-timer
 ## Index
 
 * [Usage](#Usage)
+* [Plunker](#Plunker)
 * [Changelog](#Changelog)
 * [License](#License)
 
@@ -15,11 +16,13 @@ npm install
 npm start
 ```
 
+## Plunker
+
+[Angular2 Simple Timer Example](http://embed.plnkr.co/HaTd8q/)
 
 ## Contributors
 
-* John Sing Dao Siu <john.sd.siu@gmail.com>
-
+* [John Sing Dao Siu](https://github.com/J-Siu)
 
 ## Changelog
 
