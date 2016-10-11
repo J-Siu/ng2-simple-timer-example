@@ -1,4 +1,4 @@
-# ng2-simple-mq-example
+# ng2-simple-timer-example
 
 This is example for [ng2-simple-timer](https://github.com/J-Siu/ng2-simple-timer), a simple timer service for Angular 2.
 
