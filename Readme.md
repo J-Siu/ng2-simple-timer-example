@@ -34,6 +34,8 @@ npm start
 	- ng2-simple-timer 0.2.3
 * 1.2.4
 	- Migrate to Angular 2.0.0
+* 1.2.6
+	- Migrate to Angular 2.4.x
 
 ## License
 
