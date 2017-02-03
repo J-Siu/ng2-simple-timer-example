@@ -36,6 +36,9 @@ npm start
 	- Migrate to Angular 2.0.0
 * 1.2.6
 	- Migrate to Angular 2.4.x
+* 1.2.7
+	- Clean up code match Angular 2.4.x
+	- Use ng2-simple-time 1.2.9
 
 ## License
 

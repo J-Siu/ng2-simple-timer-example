@@ -6,7 +6,7 @@
     'angular2-in-memory-web-api': 'node_modules/angular2-in-memory-web-api',
     'rxjs': 'node_modules/rxjs',
     'ng2-simple-timer': 'node_modules/ng2-simple-timer',
-    'node-uuid': 'node_modules/node-uuid'
+    'angular2-uuid': 'node_modules/angular2-uuid'
   };
   // packages tells the System loader how to load when no filename and/or no extension
   var packages = {
@@ -14,7 +14,7 @@
     'rxjs': { main: 'bundles/Rx.min.js', defaultExtension: 'js' },
     'angular2-in-memory-web-api': { main: 'index.js', defaultExtension: 'js' },
     'ng2-simple-timer': { main: 'index.js', defaultExtension: 'js' },
-    'node-uuid': { main: 'uuid.js', defaultExtension: 'js' }
+    'angular2-uuid': { main: 'index.js', defaultExtension: 'js' }
   };
   var ngPackageNames = [
     'common',
