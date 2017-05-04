@@ -1,7 +1,7 @@
-import {Component, OnInit} from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 // Import ng2-simple-timer as SimpleTimer
-import {SimpleTimer} from 'ng2-simple-timer';
+import { SimpleTimer } from 'ng2-simple-timer';
 
 @Component({
 	'selector': 'app-component',
@@ -31,9 +31,9 @@ export class AppComponent implements OnInit {
 	constructor(private st: SimpleTimer) { }
 
 	ngOnInit() {
-		this.st.newTimer('1sec',1);
-		this.st.newTimer('5sec',5);
-		this.st.newTimer('10sec',10);
+		this.st.newTimer('1sec', 1);
+		this.st.newTimer('5sec', 5);
+		this.st.newTimer('10sec', 10);
 		this.subscribeTimer0();
 		this.subscribeTimer1();
 		this.subscribeTimer2();
@@ -54,7 +54,7 @@ export class AppComponent implements OnInit {
 			console.log('timer 0 Unsubscribed.');
 		} else {
 			// Subscribe if timer Id is undefined
-			this.timer0Id = this.st.subscribe('1sec', e => this.timer0callback());
+			this.timer0Id = this.st.subscribe('1sec', () => this.timer0callback());
 			this.timer0button = 'Unsubscribe';
 			console.log('timer 0 Subscribed.');
 		}
@@ -70,7 +70,7 @@ export class AppComponent implements OnInit {
 			console.log('timer 1 Unsubscribed.');
 		} else {
 			// Subscribe if timer Id is undefined
-			this.timer1Id = this.st.subscribe('5sec', e => this.timer1callback());
+			this.timer1Id = this.st.subscribe('5sec', () => this.timer1callback());
 			this.timer1button = 'Unsubscribe';
 			console.log('timer 1 Subscribed.');
 		}
@@ -86,22 +86,22 @@ export class AppComponent implements OnInit {
 			console.log('timer 2 Unsubscribed.');
 		} else {
 			// Subscribe if timer Id is undefined
-			this.timer2Id = this.st.subscribe('10sec', e => this.timer2callback());
+			this.timer2Id = this.st.subscribe('10sec', () => this.timer2callback());
 			this.timer2button = 'Unsubscribe';
 			console.log('timer 2 Subscribed.');
 		}
 		console.log(this.st.getSubscription());
 	}
 
-	timer0callback() {
+	timer0callback(): void {
 		this.counter0++;
 	}
 
-	timer1callback() {
+	timer1callback(): void {
 		this.counter1++;
 	}
 
-	timer2callback() {
+	timer2callback(): void {
 		this.counter2++;
 	}
 }
