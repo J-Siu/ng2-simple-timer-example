@@ -39,12 +39,14 @@ npm start
 * 1.2.7
 	- Clean up code match Angular 2.4.x
 	- Use ng2-simple-time 1.2.9
+* 1.2.8
+	- Migrate to Angular 4.3.1
 
 ## License
 
 The MIT License
 
-Copyright (c) 2016
+Copyright (c) 2017
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
