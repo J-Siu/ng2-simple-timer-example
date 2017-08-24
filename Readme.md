@@ -41,6 +41,9 @@ npm start
 	- Use ng2-simple-time 1.2.9
 * 1.2.8
 	- Migrate to Angular 4.3.1
+* 1.3.3
+	- Version jump to match ng2-simple-timer
+	- Change `tsconfig.json` `suppressImplicitAnyIndexErrors` to false.
 
 ## License
 

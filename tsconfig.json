@@ -8,7 +8,7 @@
     "experimentalDecorators": true,
     "removeComments": false,
     "noImplicitAny": true,
-    "suppressImplicitAnyIndexErrors": true,
+    "suppressImplicitAnyIndexErrors": false,
 		"lib": [ "es2015", "dom" ]
   }
 }
