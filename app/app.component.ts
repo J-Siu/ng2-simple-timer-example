@@ -31,9 +31,9 @@ export class AppComponent implements OnInit {
 	constructor(private st: SimpleTimer) { }
 
 	ngOnInit() {
-		this.st.newTimer('1sec', 1);
-		this.st.newTimer('5sec', 5);
-		this.st.newTimer('10sec', 10);
+		this.st.newTimer('1sec', 1, true);
+		this.st.newTimer('5sec', 5, true);
+		this.st.newTimer('10sec', 10, true);
 		this.subscribeTimer0();
 		this.subscribeTimer1();
 		this.subscribeTimer2();

@@ -44,6 +44,8 @@ npm start
 * 1.3.3
 	- Version jump to match ng2-simple-timer
 	- Change `tsconfig.json` `suppressImplicitAnyIndexErrors` to false.
+* 1.3.5
+	- Use ng2-simple-timer 1.3.5 with initial delay start
 
 ## License
 
