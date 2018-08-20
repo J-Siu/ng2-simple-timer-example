@@ -1,6 +1,6 @@
 # ng2-simple-timer-example
 
-This is example for [ng2-simple-timer](https://github.com/J-Siu/ng2-simple-timer), a simple timer service for Angular 2.
+This is example for [ng2-simple-timer](https://github.com/J-Siu/ng2-simple-timer), a simple timer service for Angular.
 
 ## Index
 
@@ -46,12 +46,15 @@ npm start
 	- Change `tsconfig.json` `suppressImplicitAnyIndexErrors` to false.
 * 1.3.5
 	- Use ng2-simple-timer 1.3.5 with initial delay start
+* 6.0.0
+	- Update for Angular 6.x, nad use ng2-simple-timer 6.0.0
+	- Update version to match major version of Angular
 
 ## License
 
 The MIT License
 
-Copyright (c) 2017
+Copyright (c) 2018
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

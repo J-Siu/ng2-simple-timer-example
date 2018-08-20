@@ -3,15 +3,15 @@
   var map = {
     'app': 'app', // 'dist',
     '@angular': 'node_modules/@angular',
-    'angular2-in-memory-web-api': 'node_modules/angular2-in-memory-web-api',
     'rxjs': 'node_modules/rxjs',
     'ng2-simple-timer': 'node_modules/ng2-simple-timer',
     'angular2-uuid': 'node_modules/angular2-uuid'
   };
   // packages tells the System loader how to load when no filename and/or no extension
   var packages = {
-    'app': { main: 'main.js', defaultExtension: 'js' },
-    'rxjs': { main: 'bundles/Rx.min.js', defaultExtension: 'js' },
+		'app': { main: 'main.js', defaultExtension: 'js' },
+		'rxjs/operators': {main: 'index.js', defaultExtension: 'js' },
+    'rxjs': { main: 'bundles/rxjs.umd.min.js', defaultExtension: 'js' },
     'angular2-in-memory-web-api': { main: 'index.js', defaultExtension: 'js' },
     'ng2-simple-timer': { main: 'index.js', defaultExtension: 'js' },
     'angular2-uuid': { main: 'index.js', defaultExtension: 'js' }
