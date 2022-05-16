@@ -1,30 +1,35 @@
-# ng2-simple-timer-example
+# Angular Simple Timer Example [![Paypal donate](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/donate/?business=HZF49NM9D35SJ&no_recurring=0&currency_code=CAD)
 
 This is example for [ng2-simple-timer](https://github.com/J-Siu/ng2-simple-timer), a simple timer service for Angular.
 
-## Index
+### Table Of Content
+<!-- TOC -->
 
-* [Usage](#Usage)
-* [Plunker](#Plunker)
-* [Changelog](#Changelog)
-* [License](#License)
+- [Index](#index)
+- [Usage](#usage)
+- [Plunker](#plunker)
+- [Contributors](#contributors)
+- [Changelog](#changelog)
+- [License](#license)
 
-## Usage
+<!-- /TOC -->
+
+### Usage
 
 ```
 npm install
 npm start
 ```
 
-## Plunker
+### Plunker
 
 [Angular2 Simple Timer Example](http://embed.plnkr.co/HaTd8q/)
 
-## Contributors
+### Contributors
 
 * [John Sing Dao Siu](https://github.com/J-Siu)
 
-## Changelog
+### Changelog
 
 * 0.2.0
 	- Angular2 RC4
@@ -50,7 +55,7 @@ npm start
 	- Update for Angular 6.x, nad use ng2-simple-timer 6.0.0
 	- Update version to match major version of Angular
 
-## License
+### License
 
 The MIT License
 
